@@ -1,0 +1,23 @@
+//absolute value of a number 1
+#include<stdio.h>
+int absolute(int x);
+int main()
+{
+float a;
+int x;
+printf("Enter a number\n");
+scanf("%f",&a);
+x=a;
+absolute(x);
+}
+int absolute(int x)
+{
+if (x<0)
+{
+x=x*(-1);
+printf("%d\n",x);
+}
+else
+printf("%d\n",x);
+}
+
